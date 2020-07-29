@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginUISkin" width="855" height="855" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*" >
+	<w:Declarations>
+	</w:Declarations>
+    <e:Group>
+        
+    </e:Group>
+    <e:Group id="user" x="150" y="340" width="348" height="58">
+        <e:Image id="account" width="358" height="70" x="0" y="1" source="login_texture_json.ui_bg_tiao"/>
+        <e:EditableText  id="accountId" width="258" height="58" x="90" y="18" promptColor="0xffffff" prompt="Username"/>
+        <e:Image id="zh" width="74" height="32" x="15" verticalCenter="6" source="login_texture_json.ui_bg_tiaozi_zh"/>
+    </e:Group>
+     <e:Group id="pass" x="150" y="430" width="348" height="58">
+        <e:Image id="password" width="358" height="70" x="0" y="1" source="login_texture_json.ui_bg_tiao"/>
+        <e:EditableText  id="passwordId" width="202" height="58" x="90" y="18" promptColor="0xffffff" prompt="Password"/>
+        <e:Image id="mm" width="74" height="32" x="15" verticalCenter="6" source="login_texture_json.ui_bg_tiaozi_mm"/>
+   
+        <e:CheckBox id="showpwd" label="" x="290" y="6" selected="false"> 
+            <e:skinName>
+                <e:Skin states="up,down,disabled">
+                    <e:Image width="100%" height="100%" source="login_texture_json.ui_pwd_hide" source.down="login_texture_json.ui_pwd_show"/>
+                    <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                </e:Skin>
+            </e:skinName>
+        </e:CheckBox>
+    </e:Group> 
+
+
+    <e:Group id="btngp" x="150" y="540" width="400" height="40">
+        <e:Button id="login" width="140" label="Login" x="20">
+            <e:skinName>
+                <e:Skin states="=up,down,disabled">
+                    <e:Image  width="100%" height="100%" source="common_spritesheet_json.btn_gold_normal"/>
+                    <e:Label id="labelDisplay" horizontalCenter="3" verticalCenter="-4" textColor="0xffffff" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+        <e:Button id="clear" width="140" label="Clear" x="180">
+            <e:skinName>
+                <e:Skin states="=up,down,disabled">
+                    <e:Image  width="100%" height="100%" source="common_spritesheet_json.btn_gold_normal"/>
+                    <e:Label id="labelDisplay" horizontalCenter="3" verticalCenter="-2" textColor="0xffffff" />
+                </e:Skin>
+            </e:skinName>
+        </e:Button>
+    </e:Group>
+
+    <!--<e:Group >
+         <e:Rect width="1080" height="1920" fillColor=""  />
+        <e:Label text="Hello Egret" />
+    </e:Group>-->
+</e:Skin>

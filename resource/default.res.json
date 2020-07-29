@@ -1,0 +1,43 @@
+{
+	"groups": [
+		{
+			"keys": "common_spritesheet_json,login_texture_json,bg_jpg,bg0531_jpg,description_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/Common/common_spritesheet_json",
+			"type": "sheet",
+			"name": "common_spritesheet_json",
+			"subkeys": "bg_header_2,btn_back,btn_filter,btn_menu,line,timer_1,timer_2,toggle_line,bg_room_header,btn_ads,bg_maintenance,bg_shiffling,tag_road_1,tag_road_2,btn_back_to_top,btn_gold_normal,btn_gold_pressed,btn_gray_normal,btn_gray_pressed,scroller_1,scroller_2,btn-pencil,tag_name_input,btn_shadow,bg_popup_3,lang_3_selected,lang_3,line_4,mask,lang_bg_selected,lang_bg,btn_close,btn_rules_detail,lang_corner_bg,lang_corner_bg_selected,line_3,btn_dropdown,chip_icon_1,chip_icon_2,chip_icon_3,chip_icon_4,chip_icon_5,chip_icon_6,chip_icon_7,chip_icon_8,chip_icon_9,chip_icon_10,chipHighlight,mask_2,toggle_off,toggle_on"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/bg_0531.jpg",
+			"type": "image",
+			"name": "bg0531_jpg"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/Login/login_texture.json",
+			"type": "sheet",
+			"name": "login_texture_json",
+			"subkeys": "circle_bg2,puke_10,ui_an_1,ui_an_d_1,ui_an_d_2,ui_an_dzi_fwq1,ui_an_dzi_fwq2,ui_an_dzi_fwq3,ui_ban_dianhua,ui_ban_wangluo,ui_bg_tiao,ui_bg_tiaozi_mm,ui_bg_tiaozi_zh,ui_duigou,ui_kuang,ui_kuang2,ui_pwd_hide,ui_pwd_show,zi_zidong"
+		},
+		{
+			"url": "assets/Common/common_spritesheet.json",
+			"type": "sheet",
+			"name": "common_spritesheet_json",
+			"subkeys": "bg_header_2,bg_maintenance,bg_popup_3,bg_room_header,bg_shiffling,btn-pencil,btn_ads,btn_back,btn_back_to_top,btn_close,btn_dropdown,btn_filter,btn_gold_normal,btn_gold_pressed,btn_gray_normal,btn_gray_pressed,btn_menu,btn_rules_detail,btn_shadow,chipHighlight,chip_icon_1,chip_icon_10,chip_icon_2,chip_icon_3,chip_icon_4,chip_icon_5,chip_icon_6,chip_icon_7,chip_icon_8,chip_icon_9,lang_3,lang_3_selected,lang_bg,lang_bg_selected,lang_corner_bg,lang_corner_bg_selected,line,line_3,line_4,mask,mask_2,scroller_1,scroller_2,tag_name_input,tag_road_1,tag_road_2,timer_1,timer_2,toggle_line,toggle_off,toggle_on"
+		}
+	]
+}

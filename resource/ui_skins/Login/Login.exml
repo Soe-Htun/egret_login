@@ -31,7 +31,7 @@
             <e:skinName>
                 <e:Skin states="=up,down,disabled">
                     <e:Image  width="100%" height="100%" source="common_spritesheet_json.btn_gold_normal"/>
-                    <e:Label id="labelDisplay" horizontalCenter="3" verticalCenter="-4" textColor="0xffffff" />
+                    <e:Label id="labelDisplay" horizontalCenter="3" verticalCenter="-4" textColor="0xff3f66" />
                 </e:Skin>
             </e:skinName>
         </e:Button>
@@ -39,7 +39,7 @@
             <e:skinName>
                 <e:Skin states="=up,down,disabled">
                     <e:Image  width="100%" height="100%" source="common_spritesheet_json.btn_gold_normal"/>
-                    <e:Label id="labelDisplay" horizontalCenter="3" verticalCenter="-2" textColor="0xffffff" />
+                    <e:Label id="labelDisplay" horizontalCenter="3" verticalCenter="-2" textColor="0xff3f66" />
                 </e:Skin>
             </e:skinName>
         </e:Button>

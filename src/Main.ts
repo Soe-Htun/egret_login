@@ -6,7 +6,7 @@ class Main extends eui.UILayer {
 
         egret.lifecycle.addLifecycleListener((context) => {
             // custom lifecycle plugin
-        })
+        }) 
 
         egret.lifecycle.onPause = () => {
             egret.ticker.pause();

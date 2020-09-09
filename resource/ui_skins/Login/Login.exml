@@ -10,10 +10,10 @@
         <e:EditableText  id="accountId" width="258" height="58" x="90" y="18" promptColor="0xffffff" prompt="Username"/>
         <e:Image id="zh" width="74" height="32" x="15" verticalCenter="6" source="login_texture_json.ui_bg_tiaozi_zh"/>
     </e:Group>
-     <e:Group id="pass" x="150" y="430" width="348" height="58">
+     <e:Group id="pass" x="150" y="430" width="348">
         <e:Image id="password" width="358" height="70" x="0" y="1" source="login_texture_json.ui_bg_tiao"/>
-        <e:EditableText  id="passwordId" width="202" height="58" x="90" y="18" promptColor="0xffffff" prompt="Password"/>
-        <e:Image id="mm" width="74" height="32" x="15" verticalCenter="6" source="login_texture_json.ui_bg_tiaozi_mm"/>
+        <e:EditableText  id="passwordId" width="202" height="70" verticalAlign="middle" x="90" y="-2" promptColor="0xffffff" prompt="Password"/>
+        <e:Image id="mm" width="74" height="32" x="15" verticalCenter="0" source="login_texture_json.ui_bg_tiaozi_mm"/>
    
         <e:CheckBox id="showpwd" label="" x="290" y="6" selected="false"> 
             <e:skinName>

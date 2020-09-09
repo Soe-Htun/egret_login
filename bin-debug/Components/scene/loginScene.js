@@ -11,7 +11,9 @@ r.prototype = e.prototype, t.prototype = new r();
 var loginScene = (function (_super) {
     __extends(loginScene, _super);
     function loginScene() {
-        return _super.call(this) || this;
+        var _this = _super.call(this) || this;
+        _this.addEventListener(eui.UIEvent.CREATION_COMPLETE, _this.onComplete, _this);
+        return _this;
     }
     loginScene.prototype.onComplete = function () {
         egret.log("Login Scene Load Complete");
@@ -22,5 +24,5 @@ var loginScene = (function (_super) {
         this.addChild(login);
     };
     return loginScene;
-}(Scene));
+}(eui.Component));
 __reflect(loginScene.prototype, "loginScene");

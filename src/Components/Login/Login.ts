@@ -1,4 +1,5 @@
 class LoginUI extends eui.Component{
+    private circleAni: egret.tween.TweenGroup
     private accountId:eui.EditableText;
     public passwordId:eui.EditableText;
     public showpwd:eui.CheckBox;
@@ -10,6 +11,7 @@ class LoginUI extends eui.Component{
         this.skinName ="resource/ui_skins/Login/Login.exml"
     }
     onComplete(){
+        this.circleAni.play();
         this.initHandler();
     }
     private initHandler(){

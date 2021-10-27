@@ -66,8 +66,10 @@ class Main extends eui.UILayer {
     }
 
     protected runLoginScee(){
-        let LoginScene: loginScene=new loginScene();
-        this.addChild(LoginScene);
+        let LoginScene: LoginUI = new LoginUI();
+        this.addChild(LoginScene)
+        // let AnimationUI: Animation = new Animation();
+        // this.addChild(AnimationUI)
     }
     protected setRootLayer(layer){
         if(!layer){

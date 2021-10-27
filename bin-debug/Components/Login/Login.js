@@ -17,6 +17,7 @@ var LoginUI = (function (_super) {
         return _this;
     }
     LoginUI.prototype.onComplete = function () {
+        this.circleAni.play();
         this.initHandler();
     };
     LoginUI.prototype.initHandler = function () {
@@ -39,3 +40,4 @@ var LoginUI = (function (_super) {
     return LoginUI;
 }(eui.Component));
 __reflect(LoginUI.prototype, "LoginUI");
+//# sourceMappingURL=Login.js.map

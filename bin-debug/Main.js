@@ -134,8 +134,10 @@ var Main = (function (_super) {
         });
     };
     Main.prototype.runLoginScee = function () {
-        var LoginScene = new loginScene();
+        var LoginScene = new LoginUI();
         this.addChild(LoginScene);
+        // let AnimationUI: Animation = new Animation();
+        // this.addChild(AnimationUI)
     };
     Main.prototype.setRootLayer = function (layer) {
         if (!layer) {
@@ -207,3 +209,4 @@ var Main = (function (_super) {
     return Main;
 }(eui.UILayer));
 __reflect(Main.prototype, "Main");
+//# sourceMappingURL=Main.js.map

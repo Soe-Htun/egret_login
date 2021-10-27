@@ -1,0 +1,23 @@
+{
+    "global": {
+        "globalAutoLayerMarkEnable": true,
+        "globalAdsorbEnable": false,
+        "globalRulerEnable": false,
+        "globalBindingDataTestObj": []
+    },
+    "17cbaf59e12": {
+        "bindingDataTestObj": [],
+        "backgroundX": 0,
+        "backgroundY": 0,
+        "backgroundWidth": -1,
+        "backgroundHeight": -1,
+        "useBgImage": true,
+        "useBgColor": true,
+        "backgroundAlpha": 100
+    },
+    "17cbba8b825": {
+        "path": "Components\\Login\\Animation.ts",
+        "class": "Animation",
+        "parentPath": ""
+    }
+}

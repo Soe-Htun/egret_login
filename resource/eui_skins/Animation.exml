@@ -13,7 +13,7 @@
 				</tween:To>
 			</tween:TweenItem>
 		</tween:TweenGroup>
-		<tween:TweenGroup id="tweenGroup">
+		<!--<tween:TweenGroup id="tweenGroup">
 			<tween:TweenItem target="{animationTest}">
 				<tween:To duration="14500">
 					<tween:props>
@@ -22,10 +22,12 @@
 				
 				</tween:To>
 			</tween:TweenItem>
-		</tween:TweenGroup>
+		</tween:TweenGroup>-->
 	</w:Declarations>
 	<w:Config id="17cbba8b825" ></w:Config>
-	<e:Image id="circle" source="egret_icon_png"  x="425" y="165" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="circle" source="circle_bg1_png" x="425" y="165" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="animationTest" source="egret_icon_png" x="425" y="165" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0"/>
+
 	
-	<e:Image id="animationTest" source="circle_bg1_png"  x="425" y="165" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" horizontalCenter="0"/>
+
 </e:Skin>

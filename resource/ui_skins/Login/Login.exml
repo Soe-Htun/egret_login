@@ -17,12 +17,12 @@
     </w:Declarations>
 
     <e:Image id="circle" source="circle_bg1_png" x="599.5" y="491.5" anchorOffsetX="417.5" anchorOffsetY="417.5" verticalCenter="0" horizontalCenter="0"/>
-	<e:Group id="user" x="769" y="388" width="382" height="67" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+	<e:Group id="user" x="769" y="388" width="390" height="67" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
 		<e:Image id="account" width="380" height="70" x="0" y="0" source="login_texture_json.ui_bg_tiao" anchorOffsetX="0"/>
 		<e:Image id="zh" width="74" height="32" x="26" verticalCenter="0.5" source="login_texture_json.ui_bg_tiaozi_zh"/>
 		<e:EditableText id="accountId" width="258" height="58" x="116" y="17" promptColor="0xffffff" prompt="Username"/>
 	</e:Group>
-	<e:Group id="pass" x="771" y="506" width="378" scaleX="1" scaleY="1" anchorOffsetX="0">
+	<e:Group id="pass" x="771" y="506" width="390" scaleX="1" scaleY="1" anchorOffsetX="0">
 		<e:Image id="password" width="380" height="70" x="0" y="1" source="login_texture_json.ui_bg_tiao" anchorOffsetX="0"/>
 		<e:EditableText id="passwordId" width="202" height="70" verticalAlign="middle" x="110" y="-2" promptColor="0xffffff" prompt="Password"/>
 		<e:Image id="mm" width="74" height="32" x="25" verticalCenter="-1.5" source="login_texture_json.ui_bg_tiaozi_mm"/>
@@ -35,20 +35,20 @@
 			</e:skinName>
 		</e:CheckBox>
 	</e:Group>
-	<e:Group id="btngp" x="777" y="641" width="380" height="60" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
-		<e:Button id="login" width="186" label="Login" x="0" anchorOffsetY="0" height="58" anchorOffsetX="0" y="0">
+	<e:Group id="btngp" x="777" y="641" width="390" height="67" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Button id="login" width="180" label="Login" x="0" anchorOffsetY="0" height="67" anchorOffsetX="0" y="0">
 		<e:skinName>
 			<e:Skin states="=up,down,disabled">
-			<e:Image width="100%" height="100%" source="common_spritesheet_json.btn_gold_normal"/>
-			<e:Label id="labelDisplay" horizontalCenter="3" verticalCenter="-4" textColor="0xff3f66"/>
+			<e:Image width="100%" height="100%" source="common_spritesheet_json.btn_gold_normal" source.down="common_spritesheet_json.btn_gold_pressed"/>
+			<e:Label id="labelDisplay" horizontalCenter="3" verticalCenter="-4" textColor="0xB60815"/>
 			</e:Skin>
 		</e:skinName>
 		</e:Button>
-		<e:Button id="clear" width="186" label="Clear" x="194" anchorOffsetY="0" height="60" anchorOffsetX="0">
+		<e:Button id="clear" width="180" label="Clear" x="194" anchorOffsetY="0" height="67" anchorOffsetX="0">
 		<e:skinName>
 			<e:Skin states="=up,down,disabled">
-			<e:Image width="100%" height="100%" source="common_spritesheet_json.btn_gold_normal"/>
-			<e:Label id="labelDisplay" horizontalCenter="3" verticalCenter="-2" textColor="0xff3f66"/>
+			<e:Image width="100%" height="100%" source="common_spritesheet_json.btn_gold_normal" source.down="common_spritesheet_json.btn_gold_pressed"/>
+			<e:Label id="labelDisplay" horizontalCenter="3" verticalCenter="-2" textColor="0xB60815"/>
 			</e:Skin>
 		</e:skinName>
 		</e:Button>
